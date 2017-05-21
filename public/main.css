@@ -1,0 +1,26 @@
+main {
+  width: 300px;
+  margin: 0 auto;
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+  width: 400px;
+  font-size: 22px;
+  margin: 10px;
+  display: block;
+}
+
+.gif {
+  padding: 7px;
+}
+
+#gifs {
+  vertical-align: center;
+  padding: 35px;
+}
+
+#gifs ul li {
+  list-style-type: none;
+}
