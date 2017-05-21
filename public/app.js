@@ -15,6 +15,14 @@ var bindEvents = function(){
   });
 }
 
+var reset = function(){
+  var resetButton = document.getElementsByName("reset");
+
+  resetButton.addEventListener("click", function(){
+    gifsDiv.innerHTML = "";
+  })
+}
+
 var makeRequest = function(method, url, callback){
   var request = new XMLHttpRequest();
   request.open(method, url);
